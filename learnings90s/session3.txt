@@ -7,3 +7,33 @@ Basic Linux Commands
 3. touch filename --> to create a file (touch devops.txt)
 
 4. cat filename --> to view the coontent of the file on the terminal
+
+5. cat > filename --> to enter text to the file
+
+6. cat >> filename --> to append the text to the file
+
+7. tca filename --> displays text in the reverse order
+
+8. cat file1 file2 > file3 --> contents of file1 and file2 will be copied to file3
+
+9. mkdir foldername --> to create a directory or folder
+
+10. what if mkdir devops used twice?
+    mkdir devops --> for the first time folder will be created
+    mkdir devops --> second time throws error "File exists"
+    mkdir -p devops -->  second time if you use "-p" it will not throw the error, also don't create the folder as it already exists
+
+11. rmdir folder --> deletes the directory if it is empty
+
+12. rm filename --> deletes the file from the current directory
+
+12. rm -r folder --> recursive deletion of files inside directory and then directory
+
+13. cp source destination --> copying file from source location to destination
+
+14. 
+
+
+
+
+
