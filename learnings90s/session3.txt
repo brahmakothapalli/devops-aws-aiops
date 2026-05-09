@@ -1,0 +1,9 @@
+Basic Linux Commands
+====================
+1. ls --> list all subdirectories and files in the current directory
+
+2. ls -l --> list all subdirectories and files in the current directory with detailed file information
+
+3. touch filename --> to create a file (touch devops.txt)
+
+4. cat filename --> to view the coontent of the file on the terminal
