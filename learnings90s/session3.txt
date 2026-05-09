@@ -31,7 +31,16 @@ Basic Linux Commands
 
 13. cp source destination --> copying file from source location to destination
 
-14. 
+14. mv source destination --> moving the file from source location to  destination location
+
+15. mv file1 file2 --> renaming file1 as file2
+
+Downloading files:
+=================
+16. wget url --> downloads the file to current directory
+
+grep: searching the given text
+====
 
 
 
