@@ -40,7 +40,39 @@ Downloading files:
 16. wget url --> downloads the file to current directory
 
 grep: searching the given text
-====
+==============================
+17. grep search_text filename --> searches the given text (case sensitive) in the given file and displays the lines with text
+
+18. grep -i search_text filename --> searches the given text (case insensitive) in the given file and displays the lines with text
+
+19. grep -in search_text filename --> searches the given text (case insensitive) in the given file and displays the lines with text and line numbers
+
+20. grep -ic search_text filename --> searches the given text (case insensitive) and gives the count the lines
+
+21. grep -iv search_text filename --> searches and displays all the lines that doesn't contain given text
+
+curl:
+=====
+22. curl url --> displays the content of the url file directly on the terminal, whereas wget just downloads the file
+
+23. curl -o temp.txt url --> downloads the text to to temp.text
+
+piping:
+====== 
+24. command 1 | command 2 --> output of command 1 becomes the input command 2
+    example curl url | grep devops --> searching the devops word in the output of curl
+
+Head & Tail:
+===========
+25. head filename --> displays first 10 lines of file
+
+26. tail filename --> displays last 10 lines of file
+
+27. head -n 14 filename | tail -n 4 ---> displays lines 10 to 14 on terminal
+
+cut:
+=====
+
 
 
 
