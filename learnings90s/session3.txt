@@ -76,7 +76,12 @@ cut: to split the given sentence using delimiter
     cut -d "d/devops/session.txt" -f2 --> this will return word devops
 
 29. How to get the list of user names:
-    cat /ect/passwd | cut -d ":" -f1
+    cat /ect/passwd | cut -d ":" -f1 --> gives all the usernames of the system
+    cat /ect/passwd | cut -d ":" -f1,3 --> gives all usernames and 3rd fragments
+
+AWK:
+====
+
 
 
 
