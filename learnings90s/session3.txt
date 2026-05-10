@@ -70,8 +70,13 @@ Head & Tail:
 
 27. head -n 14 filename | tail -n 4 ---> displays lines 10 to 14 on terminal
 
-cut:
+cut: to split the given sentence using delimiter
 =====
+28. cut -d delimiter -f --> splits the given string or sentence using delimiter
+    cut -d "d/devops/session.txt" -f2 --> this will return word devops
+
+29. How to get the list of user names:
+    cat /ect/passwd | cut -d ":" -f1
 
 
 
