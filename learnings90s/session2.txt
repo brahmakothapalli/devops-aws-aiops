@@ -1,1 +1,56 @@
+Windows Vs Linux:
+=================
+1. Windows UI is heavy compared to Linux
+2. Linux is super fast compared to Linux
+3. Windos is costlier, Linux is almost free
+4. Linux basically a Kernel
+5. Linux Torlvald developed it, using C language.
+6. Kernel acts as interface between Hardware and Software
+7. Using shell script we interact with Kernel
+
+
+  Applications
+    ||  shell script
+  Kernel (heart and brain)
+    ||
+  Hardware
+
+
+8. Redhat Linux Enterprise ==> RHEL ==> centOS ==> fedora
+
+Authenticatio and Firewall:
+===========================
+
+1. SSH --> Secure Shell --> portocol used to connect linux server
+2. To generate ssh key
+   ssh-keygen -f filename ==> this will generate two keys (public key and private key)
+3. default user in aws ec2-user, in azure azuser.
+4. ssh-keygen -f daws90s ==> private and public keys will be generated
+5. public will shared with servers like ec2 or vms but private keys are stored on the personal laptops or client system only
+
+6. Ingress/Inbound - incoming trafiic
+7. Egress/Outboud - outgoing traffic
+
+Protocals
+==========
+8. http(8080), https(443), ssh(22), TCP, FTP, SMTP and etc
+9. In a computer you will have 0-65,535 ports i,e 65,536 ports.
+Ex : http://facebook.com:8080
+Ex : https://facebook.com:443
+
+10. Firewall with security group ==> Protocal SSH, Port 22, Allow 0.0.0.0/0 ==> anyone can connect
+
+11. Firewall with security group ==> Protocal SSH, Port 22, Allow 10.27.36.67 ==> only 10.27.36.67 computer can coonect.
+
+EC2:
+====
+12. EC2, Keypair, Security group
+
+13. After EC2 creation copy  the public i[
+
+14. Navigate to the location where ssh keys are created
+ssh -i private-key ec2-user@ec2publicip
+
+
+
 
