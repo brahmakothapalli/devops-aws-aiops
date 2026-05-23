@@ -10,4 +10,39 @@ VIM Editor
 
 5. press i --> for insert nmode
 
-6. 
+6. :set nu --> displays the numbers
+
+7. :set nonu --> don't display numbers
+
+8. :<line-number> --> cursor moves to that number (:4 --> cursor moves to line number 4)
+
+9. :/<word-searc> --> searching for word in the file (forward search)
+
+10. :?/<word-search> --> searching for word in the file (backward search)
+
+11. 2d --> delete linenuber 2
+
+12. 2, 5d --> delete linenumber 2-5 
+
+13. %d --> delete everything
+
+14. :4s/<word-to-find>/<word-to-replace> --> in line number 4, replace first occurance
+
+15. :4s/<word-to-find>/<word-to-replace>/g --> in line number 4, replaces all occurances in the line
+
+16. :%s/<word-to-find>/<word-to-replace> --> replaces first occurances in all lines
+
+17. :%s/<word-to-find>/<word-to-replace>/g --> replaces all occurances in all lines
+
+18. esc+u --> undo the changes
+
+19. esc + ctrl + r --> redo changes
+
+20. shift + g --> go to bottom of the file
+
+21. gg --> top of the file
+
+22. yy --> copy the line
+
+23. p --> paste the copied line
+15. 
