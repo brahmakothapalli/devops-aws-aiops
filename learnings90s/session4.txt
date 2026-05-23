@@ -2,4 +2,12 @@ VIM Editor
 ===========
 1. vim filename - opens the file if exist or creates new file
 
-2. 
+2. :wq --> to save changes and quit
+
+3. :q --> to ignore chnages and quit
+
+4. :q! --> force
+
+5. press i --> for insert nmode
+
+6. 
