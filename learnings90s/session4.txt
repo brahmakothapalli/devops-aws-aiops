@@ -1,0 +1,5 @@
+VIM Editor
+===========
+1. vim filename - opens the file if exist or creates new file
+
+2. 
